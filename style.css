@@ -79,4 +79,25 @@ header p {
   .item {
     width: 90%;
   }
+  .botao-ifood {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.botao-ifood a {
+  background-color: #ea1d2c;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao-ifood a:hover {
+  background-color: #c31423;
+  transform: scale(1.05);
+}
 }
